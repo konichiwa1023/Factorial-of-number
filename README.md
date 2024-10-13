@@ -1,0 +1,1 @@
+You will implement pytest tests using the provided test cases to test the factorial function. The factorial function of n is the product of all positive integers less than or equal to n. It is guaranteed that n is a non-negative integer. At each step, you will get a test case that you need to implement in Python. The pytest library was already imported for you.
