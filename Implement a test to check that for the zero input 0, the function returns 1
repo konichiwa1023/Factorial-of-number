@@ -1,0 +1,14 @@
+import pytest
+
+# Factorial function implementation
+def factorial(n):
+    if n == 0:
+        return 1
+    elif type(n) == int:
+        return n * factorial(n - 1)
+    else:
+        return -1
+
+# Test case for zero input
+def test_zero():
+    assert factorial(0) == 1
