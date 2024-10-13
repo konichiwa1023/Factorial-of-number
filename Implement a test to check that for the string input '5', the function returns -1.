@@ -1,0 +1,18 @@
+import pytest
+
+# Factorial function implementation
+def factorial(n):
+    if n == 0:
+        return 1
+    elif type(n) == int:
+        return n * factorial(n - 1)
+    else:
+        return -1
+
+# Test case for input of a wrong type (string)
+def test_str():
+    assert factorial('5') == -1
+    print('Test passed')
+
+# Run the test function
+test_str()
